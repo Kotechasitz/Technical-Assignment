@@ -11,9 +11,9 @@ The Bank Library API is a RESTful service built with Node.js and Express, using 
 
 ### Environment Variables
 Create a .env file and include the following:
-DATABASE_URL=your_postgres_connection_string
-JWT_SECRET=your_secret_key
-PORT=3000
+- DATABASE_URL=your_postgres_connection_string
+- JWT_SECRET=your_secret_key
+- PORT=3000
 ### Installation Steps
 1. Clone the repository:
    
