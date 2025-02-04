@@ -6,14 +6,13 @@ The Bank Library API is a RESTful service built with Node.js and Express, using 
 ## Setup and Installation
 ### Prerequisites
 - Node.js (v16+ recommended)
-- PostgreSQL database
+- MongoDB database
 - Environment variables stored in a .env file
 
 ### Environment Variables
 Create a .env file and include the following:
-- DATABASE_URL=your_postgres_connection_string
-- JWT_SECRET=your_secret_key
-- PORT=3000
+- MONGO_URI=mongodb://localhost:27017/your_database_name
+- JWT_SECRET=your_jwt_secret
 ### Installation Steps
 1. Clone the repository:
    
