@@ -29,7 +29,7 @@ sh
 3. Start the server:
    
 sh
-   npm start
+   npm run dev
    
 ## API Endpoints
 
