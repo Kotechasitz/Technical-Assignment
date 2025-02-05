@@ -7,6 +7,7 @@ const bookRoutes = require("./routes/books");
 dotenv.config();
 const app = express();
 
+// Connect to the database
 connectDB();
 
 app.use(express.json());
